@@ -1,14 +1,16 @@
 body{
  width:1000px;
  margin: 30px auto;
-background-size: cover;
- background-size:cover;
+ background-color: darkcyan;
+background-size: contain;
+ 
 } 
 
 header{
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid aliceblue;
   margin-bottom: 30px;
   text-align: center;
+  color: aliceblue;
 }
 nav{
     width: 310px;
@@ -26,12 +28,40 @@ section{
     vertical-align: baseline;
     padding: 20px;
 }
-a{
+a{  color: aliceblue;
     margin-right: 8px;
+
+    
+
 }
-p{  font-weight: 600;
+p{  color: cornsilk;
+    font-weight: 900;
     text-indent: 50px;
 }
+h2{
+    color: aliceblue;
+}
+
+table{
+      font-family: Arial,sans-serif;
+      border-collapse:colapse;
+      width: 80%;
+      margin: 0 auto;
+      color: white;
+    }
+    th{
+      padding: 20px;
+    }
+    th, td {
+      border: solid 1px black;
+      background-color: black;
+    }
+    td{
+      padding: 12px;
+    }
+
+  
+  
 
 
 
