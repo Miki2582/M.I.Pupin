@@ -1,0 +1,38 @@
+body{
+ width:1000px;
+ margin: 30px auto;
+background-size: cover;
+ background-size:cover;
+} 
+
+header{
+  border-bottom: 2px solid black;
+  margin-bottom: 30px;
+  text-align: center;
+}
+nav{
+    width: 310px;
+    text-align: left;
+    float: left;
+    padding-right: 10px;
+    margin-right: 6px;
+    box-sizing: border-box;
+}
+section{
+    
+    width: 680px;
+    float: left;
+    box-sizing: border-box;
+    vertical-align: baseline;
+    padding: 20px;
+}
+a{
+    margin-right: 8px;
+}
+p{  font-weight: 600;
+    text-indent: 50px;
+}
+
+
+
+
