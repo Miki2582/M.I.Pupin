@@ -50,10 +50,10 @@ table{
       color: white;
     }
     th{
-      padding: 20px;
+      padding: 16px;
+      border: 1px solid black;
     }
-    th, td {
-      border: solid 1px black;
+    td,th {
       background-color: black;
     }
     td{
