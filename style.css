@@ -1,9 +1,14 @@
 body{
+    background-image: url(slike/cover.jpg);
+    background-size:cover;
  width:1000px;
  margin: 30px auto;
- background-color: darkcyan;
-background-size: contain;
  
+
+ 
+}
+nav,header,section{
+    font-family: 'Kalam', cursive;
 } 
 
 header{
@@ -25,15 +30,19 @@ section{
     width: 680px;
     float: left;
     box-sizing: border-box;
-    vertical-align: baseline;
+    vertical-align: -webkit-baseline-middle;
     padding: 20px;
+    color:aliceblue;
+    font-size: 20px;
 }
 a{  color: aliceblue;
     margin-right: 8px;
 
-    
-
 }
+
+ 
+
+ }
 p{  color: cornsilk;
     font-weight: 900;
     text-indent: 50px;
