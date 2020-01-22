@@ -1,8 +1,8 @@
 body{
-    background-image: url(slike/cover.jpg);
+    background: linear-gradient(#665d5d, #ce7272);
     background-size:cover;
- width:1000px;
- margin: 30px auto;
+    width:1000px;
+    margin: 10px auto;
  
 
  
@@ -12,58 +12,79 @@ nav,header,section{
 } 
 
 header{
-  border-bottom: 2px solid aliceblue;
-  margin-bottom: 30px;
+  border-bottom: 2px solid rgb(16, 18, 20);
+  margin-bottom: 10px;
   text-align: center;
-  color: aliceblue;
+  color: rgb(48, 55, 61);
 }
 nav{
+   
     width: 310px;
-    text-align: left;
+   
     float: left;
     padding-right: 10px;
     margin-right: 6px;
     box-sizing: border-box;
+
 }
+
+
+
 section{
     
     width: 680px;
     float: left;
     box-sizing: border-box;
-    vertical-align: -webkit-baseline-middle;
+    vertical-align: text-bottom;
     padding: 20px;
-    color:aliceblue;
+    color:rgb(0, 0, 0);
     font-size: 20px;
 }
-a{  color: aliceblue;
+a{  color: rgb(0, 0, 0);
+  margin-top: 10px;
     margin-right: 8px;
+    text-decoration: none;
 
 }
+a:link,
+a:active{
+  color: #ce7272;
+  
+}
+a:hover{
+font-style: italic;
+background-color:#5c515179;
+padding: 10px;
+transform: scale(0.30, 0.30);
 
+
+}
  
 
  }
-p{  color: cornsilk;
+p{  color: rgb(0, 0, 0);
     font-weight: 900;
     text-indent: 50px;
 }
 h2{
-    color: aliceblue;
+    color: rgb(0, 0, 0);
 }
 
 table{
       font-family: Arial,sans-serif;
       border-collapse:colapse;
-      width: 80%;
+      width:100%;
       margin: 0 auto;
-      color: white;
+     
+      font-size: 16px;
     }
     th{
       padding: 16px;
-      border: 1px solid black;
+      border: 1px solid #665d5d;
     }
     td,th {
-      background-color: black;
+      background-image:linear-gradient(#ce7272, #665d5d)
+     
     }
     td{
       padding: 12px;
